@@ -45,7 +45,7 @@ def ao_receber_mensagem(ws, mensagem):
 
     if price > 19500:
         vender()
-    elif price < 19000:
+    elif price < 19100:
         comprar()
     else:
         print('Aguardar')
